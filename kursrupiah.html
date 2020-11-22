@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kurs Rupiah</title>
+        <meta> charset="UTF-8">
+    </head>
+<body>
+    <fieldset style="background-color: #ffffff;">
+        <legend>Kurs Rupiah - mata Uang Asing</legend>
+           <table cellpadding="4" border="1">
+               <tr style="text-aligen: center;">
+                <td>Masukan Nilai</td>
+                <td>vales</td>
+                <td>Nilai Rupiah</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Masukkan nilai" onkeyup="kurs()" name="idr" id="idr">
+                </td>
+                <td>
+                    <select onchange="kurs()" id="kurs">
+                        <option value="1">Dollar US</option>
+                        <option value="2">Dollar Singapura</option>
+                        <option value="3">Ringgit malaysia</option>
+                        <option value="4">Yen jepang</option>
+                        <option value="5">Euro</option>
+                        <option value="6">Riyal Arab Saudi</option>
+                        </select>
+                </td>
+                <td>
+                    <input type="text" placeholder="Nilai Rupiah" id="Rupiah">
+                <td>
+            <tr>
+            </table>
+            </fieldset>                
